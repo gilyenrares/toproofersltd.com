@@ -16,8 +16,12 @@
 <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
+      <img src="images/w-6.jpg" class="d-block w-100 mr-auto ml-auto" alt="...">
+    </div>
+    <div class="carousel-item">
       <img src="images/w-1.jpg" class="d-block w-100 mr-auto ml-auto" alt="...">
     </div>
+
     <div class="carousel-item">
       <img src="images/w-5.jpg" class="d-block w-100 mr-auto ml-auto" alt="...">
     </div>
