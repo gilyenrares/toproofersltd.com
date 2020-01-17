@@ -16,13 +16,19 @@
 <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="images/1.jpg" class="d-block w-50 mr-auto ml-auto" alt="...">
+      <img src="images/w-1.jpg" class="d-block w-100 mr-auto ml-auto" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="images/2.jpg" class="d-block w-50 mr-auto ml-auto" alt="...">
+      <img src="images/w-5.jpg" class="d-block w-100 mr-auto ml-auto" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="images/3.jpg" class="d-block w-50 mr-auto ml-auto" alt="...">
+      <img src="images/w-2.jpg" class="d-block w-100 mr-auto ml-auto" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/w-3.jpg" class="d-block w-100 mr-auto ml-auto" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/w-4.jpg" class="d-block w-100 mr-auto ml-auto" alt="...">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
@@ -34,7 +40,7 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
-
+4032 1911
 
 <!-- Scripts -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

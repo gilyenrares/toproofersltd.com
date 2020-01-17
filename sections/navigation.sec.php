@@ -187,9 +187,6 @@
         <li class="nav-item inactive">
           <a class="nav-link" href="our-work.php">Our Work</a>
         </li>
-        <li class="nav-item inactive">
-          <a class="nav-link" href="testimonials.php">Testimonials</a>
-        </li>
         <li class="nav-item inactive dropdown">
           <a class="nav-link dropdown-toggle" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Roofing Services</a>
         <div class="dropdown-menu bg-red" aria-labelledby="dropdownMenuLink">
