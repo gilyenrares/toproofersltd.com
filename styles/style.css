@@ -1,0 +1,40 @@
+.bg-red{
+	background-color:  #841518;
+}
+.bg-yellow {
+	background-color:  #FFE000;
+}
+.nav-item {
+	font-size: 0.88em;
+	font-weight: bold !important;
+	text-transform: uppercase;
+}
+.active a{
+	background-color: #FFE000;
+	color: #841518 !important;
+	border: 10px solid #FFE000;
+	border-radius: 8px;
+}
+.active a:hover{
+	color: #000 !important;
+}
+.inactive{
+	margin-left: 2px;
+}
+.inactive a{
+	color: #FFE000 !important;
+	border: 10px solid #841518;
+}
+.inactive a:hover{
+	background-color: #FFE000;
+	color: #000 !important;
+	border: 10px solid #FFE000;
+	border-radius: 8px;
+}
+.dropdown-item{
+	font-weight: bold !important;
+	text-transform: uppercase;
+}
+.dropdown-item:hover{
+	background-color: #FFE000;
+}
