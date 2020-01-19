@@ -1,13 +1,47 @@
-.bg-red{
+/*main elements*/
+p {
+ 	text-indent: 50px;
+ }
+ .bg-red{
 	background-color:  #841518;
 }
 .bg-yellow {
 	background-color:  #FFE000;
 }
+.red{
+	color:  #841518;
+}
+.yellow {
+	color:  #FFE000;
+}
+ /*banners*/
+.roof-banner{
+    background-image: url(../images/roof.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 15vw;
+}
+.tape-banner{
+    background-image: url(../images/tape.png);
+    background-size: contain;
+    background-repeat: repeat-x;
+    height: 20px;
+}
+ /*navigation*/
+.navbar-custom{
+	color: #FFE000 !important;
+	border-color: #FFE000 !important;
+}
 .nav-item {
 	font-size: 0.88em;
 	font-weight: bold !important;
 	text-transform: uppercase;
+}
+.activ{
+	background-color: #FFE000;
+	color: #841518 !important;
+	border: 10px solid #FFE000;
+	border-radius: 8px;
 }
 .active a{
 	background-color: #FFE000;
@@ -20,6 +54,7 @@
 }
 .inactive{
 	margin-left: 2px;
+	margin-right: 2px;
 }
 .inactive a{
 	color: #FFE000 !important;
@@ -34,7 +69,16 @@
 .dropdown-item{
 	font-weight: bold !important;
 	text-transform: uppercase;
+	color: #FFE000 !important;
+	border: 10px solid #841518;
 }
 .dropdown-item:hover{
 	background-color: #FFE000;
 }
+/*footer*/
+  .footer {
+ 	background: #262626;
+    padding: 5em 0;
+    color: #fff;
+ }
+ 
