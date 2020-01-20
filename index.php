@@ -13,6 +13,7 @@
 <!-- Navigation -->
 <?php include 'sections/navigation.sec.php';?>
 <!-- Carousel with images -->
+<div class="tape-banner"></div>
 <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active" data-interval="3000">
@@ -44,6 +45,7 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
+<div class="tape-banner"></div>
 
 <!-- Roof Banner -->
 <div class="roof-banner shadow-lg"></div>

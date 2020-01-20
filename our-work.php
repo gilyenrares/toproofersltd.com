@@ -14,7 +14,7 @@
 <?php include 'sections/navigation.sec.php';?>
 
 <!-- Roof Banner -->
-<div class="roof-banner shadow-lg"></div>
+<div class="ow-banner shadow-lg"></div>
 
 <!-- Main body -->
 <div class="container mb-5">

@@ -14,21 +14,67 @@
 <?php include 'sections/navigation.sec.php';?>
 
 <!-- Roof Banner -->
-<div class="roof-banner shadow-lg"></div>
+<div class="contact-banner shadow-lg">
+	
+</div>
 
 <!-- Main body -->
-<div class="container mb-5">
-	<div class="tape-banner"></div>
+<div class="container my-5">
 	<div class="shadow-lg p-3 bg-white rounded">
 	<section>	
 	<h1 class="display-5 text-center">Welcome to <b>Top</b> Roofers Ltd</h1><hr>
 	</section>
-	<section>
-		<article>
-			<p>Text in here, text in there, basicaly text everywhere.Text in here, text in there, basicaly text everywhere.Text in here, text in there, basicaly text everywhere.Text in here, text in there, basicaly text everywhere.Text in here, text in there, basicaly text everywhere.</p>
-     		<p>Text in here, text in there, basicaly text everywhere.Text in here, text in there, basicaly text everywhere.Text in here, text in there, basicaly text everywhere.Text in here, text in there, basicaly text everywhere.</p>
-  		</article>
-	</section>
+	<form>
+  		<div class="form-row">
+    		<div class="form-group col-md-6">
+ 		    	<label for="firstName">Your Name:</label>
+      			<input type="text" class="form-control" id="firstName" placeholder="First Name" required="required">
+    		</div>
+    		<div class="form-group col-md-6">
+      			<label for="lastName">Family Name:</label>
+      			<input type="text" class="form-control" id="lastName" placeholder="Last Name" required="required">
+    		</div>
+  		</div>
+  		<div class="form-group">
+    		<label for="email">Email Address:</label>
+    		<input type="email" class="form-control" id="email" placeholder="example@abc.com" required="required">
+  		</div>
+  		<div class="form-row">
+    		<div class="form-group col-md-6">
+      			<label for="phone">Telephone:</label>
+      			<input type="number" class="form-control" id="phone" placeholder="Phone Number" required="required">
+    		</div>
+    		<div class="form-group col-md-4">
+      			<label for="inputState">Area:</label>
+      			<select id="inputState" class="form-control" required="required">
+        		<option selected>Choose...</option>
+        		<option>Croydon</option>
+        		<option>Ealing</option>
+        		<option>Fulham</option>
+        		<option>Hammersmith</option>
+        		<option>Hillingdon</option>
+        		<option>Hounslow</option>
+        		<option>Kingston</option>
+        		<option>Merton</option>
+        		<option>Richmond</option>
+        		<option>Sutton</option>
+        		<option>Wandsworth</option>
+        		<option>Other Area</option>
+      			</select>
+    		</div>
+    		<div class="form-group col-md-2">
+      			<label for="postcode">Postcode</label>
+      			<input type="text" class="form-control" id="postcode" required="required" >
+    		</div>
+  		</div>
+  		<div class="form-group">
+    		<div class="form-check">
+      			<input class="form-check-input" type="checkbox" id="check" required="required">
+      			<label class="form-check-label" for="check">I Agree to receive calls from Top Roofers Ltd.</label>
+    		</div>
+  		</div>
+  		<button type="submit" class="btn btn-primary">Submit Request</button>
+	</form>
 	</div>
 </div>
 <!-- Footer -->

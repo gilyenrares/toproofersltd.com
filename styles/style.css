@@ -15,9 +15,21 @@ p {
 	color:  #FFE000;
 }
  /*banners*/
+.contact-banner{
+    background-image: url(../images/stage.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 15vw;
+}
+.ow-banner{
+    background-image: url(../images/our-work.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 15vw;
+}
 .roof-banner{
     background-image: url(../images/roof.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     height: 15vw;
 }
