@@ -12,9 +12,9 @@
 <body>
 <!-- Navigation -->
 <?php include 'sections/navigation.sec.php';?>
+
 <!-- Carousel with images -->
-<div class="tape-banner"></div>
-<div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
+<div id="carousel" class="carousel slide carousel-fade border border-danger shadow-lg mx-5 my-3 rounded" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active" data-interval="3000">
       <img src="images/w-6.jpg" class="d-block w-100 mr-auto ml-auto" alt="...">
@@ -45,27 +45,21 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
-<div class="tape-banner"></div>
-
-<!-- Roof Banner -->
-<div class="roof-banner shadow-lg"></div>
 
 <!-- Main body -->
-<div class="container mb-5">
-	<div class="tape-banner"></div>
-	<div class="shadow-lg p-3 bg-white rounded">
-	<section>	
-	<h1 class="display-5 text-center">Welcome to <b>Top</b> Roofers Ltd</h1><hr>
-	</section>
-	<section>
-   
-
-		<p>When looking for a reputable roofing company, you need to know that they are fully qualified and vetted, competent at what they do and will get the job done efficiently and professionally at an affordable price.</p>
-		<p>Our team are dedicated and experienced roofers who strive to make your roofing work painless and as straight forward as possible.</p>
-		<p>Using only the best quality roofing materials on the market today, we build roofs that are built to last but also look great for many years to come.</p>
-	</section>
-	</div>
+<div class="container my-5">
+  <div class="shadow-lg p-3 bg-white border-top border-danger rounded">
+  <section> 
+  <h1 class="display-5 text-center">Welcome to <b>Top</b> Roofers Ltd</h1><hr>
+  </section>
+  <section>
+    <p>When looking for a reputable roofing company, you need to know that they are fully qualified and vetted, competent at what they do and will get the job done efficiently and professionally at an affordable price.</p>
+    <p>Our team are dedicated and experienced roofers who strive to make your roofing work painless and as straight forward as possible.</p>
+    <p>Using only the best quality roofing materials on the market today, we build roofs that are built to last but also look great for many years to come.</p>
+  </section>
+  </div>
 </div>
+
 <!-- Footer -->
 <?php include "sections/footer.sec.php" ?>
 <!-- Scripts -->

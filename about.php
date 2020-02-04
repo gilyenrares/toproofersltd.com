@@ -18,12 +18,14 @@
 
 <!-- Main body -->
 <div class="container mb-5">
-	<div class="tape-banner"></div>
 	<div class="shadow-lg p-3 bg-white rounded">
 	<section>	
 	<h1 class="display-5 text-center">Welcome to <b>Top</b> Roofers Ltd</h1><hr>
 	</section>
 	<section>
+	<div class="tape-banner"></div>
+	<h1>Page In Development</h1>
+	<div class="tape-banner"></div>
 		<article>
 			<p>Text in here, text in there, basicaly text everywhere.Text in here, text in there, basicaly text everywhere.Text in here, text in there, basicaly text everywhere.Text in here, text in there, basicaly text everywhere.Text in here, text in there, basicaly text everywhere.</p>
      		<p>Text in here, text in there, basicaly text everywhere.Text in here, text in there, basicaly text everywhere.Text in here, text in there, basicaly text everywhere.Text in here, text in there, basicaly text everywhere.</p>

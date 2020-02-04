@@ -9,7 +9,7 @@
   session_start();
     $text=$_SERVER['PHP_SELF'];
                               // !!!!! Modify before update!!!!!!
-    $rest = substr("$text", 19);
+    $rest = substr("$text", 1);
     switch ($rest) {
     case 'index.php':
     echo '<ul class="navbar-nav ml-auto mt-2 mt-lg-0">

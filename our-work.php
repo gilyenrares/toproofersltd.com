@@ -17,9 +17,8 @@
 <div class="ow-banner shadow-lg"></div>
 
 <!-- Main body -->
-<div class="container mb-5">
-	<div class="tape-banner"></div>
-	<div class="shadow-lg p-3 bg-white rounded">
+<div class="container my-5">
+	<div class="shadow-lg p-3 bg-white border-top border-danger rounded">
 	<section>	
 	<h1 class="display-5 text-center">Our Work <b>Top</b> Roofers Ltd</h1><hr>
 	<p>We've built up a long list of images from our projects over the years. Take a look at a selection of our most recent work:</p>
