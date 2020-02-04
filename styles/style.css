@@ -3,23 +3,23 @@ p {
  	text-indent: 50px;
  }
  .bg-red{
-	background-color:  #841518;
+	background-color:  #007bff;
 }
 .bg-yellow {
-	background-color:  #FFE000;
+	background-color:  #fff;
 }
 .red{
-	color:  #841518;
+	color:  #007bff;
 }
 .yellow {
-	color:  #FFE000;
+	color:  #fff;
 }
  /*banners*/
 .contact-banner{
     background-image: url(../images/stage.png);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 15vw;
+    height: 25vh;
 }
 .ow-banner{
     background-image: url(../images/our-work.jpg);
@@ -41,8 +41,8 @@ p {
 }
  /*navigation*/
 .navbar-custom{
-	color: #FFE000 !important;
-	border-color: #FFE000 !important;
+	color: #fff !important;
+	border-color: #fff !important;
 }
 .nav-item {
 	font-size: 0.88em;
@@ -50,15 +50,15 @@ p {
 	text-transform: uppercase;
 }
 .activ{
-	background-color: #FFE000;
-	color: #841518 !important;
-	border: 10px solid #FFE000;
+	background-color: #fff;
+	color: #007bff !important;
+	border: 10px solid #fff;
 	border-radius: 8px;
 }
 .active a{
-	background-color: #FFE000;
-	color: #841518 !important;
-	border: 10px solid #FFE000;
+	background-color: #fff;
+	color: #007bff !important;
+	border: 10px solid #fff;
 	border-radius: 8px;
 }
 .active a:hover{
@@ -69,23 +69,23 @@ p {
 	margin-right: 2px;
 }
 .inactive a{
-	color: #FFE000 !important;
-	border: 10px solid #841518;
+	color: #fff !important;
+	border: 10px solid #007bff;
 }
 .inactive a:hover{
-	background-color: #FFE000;
+	background-color: #fff;
 	color: #000 !important;
-	border: 10px solid #FFE000;
+	border: 10px solid #fff;
 	border-radius: 8px;
 }
 .dropdown-item{
 	font-weight: bold !important;
 	text-transform: uppercase;
-	color: #FFE000 !important;
-	border: 10px solid #841518;
+	color: #fff !important;
+	border: 10px solid #007bff;
 }
 .dropdown-item:hover{
-	background-color: #FFE000;
+	background-color: #fff;
 }
 /*footer*/
   .footer {

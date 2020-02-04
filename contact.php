@@ -13,16 +13,14 @@
 <!-- Navigation -->
 <?php include 'sections/navigation.sec.php';?>
 
-<!-- Roof Banner -->
-<div class="contact-banner shadow-lg">
-	
-</div>
+<!-- Contact Banner -->
+<div class="contact-banner shadow-lg"></div>
 
 <!-- Main body -->
 <div class="container my-5">
 	<div class="shadow-lg p-3 bg-white rounded">
 	<section>	
-	<h1 class="display-5 text-center">Welcome to <b>Top</b> Roofers Ltd</h1><hr>
+	<h1 class="display-5 text-center">Contact <b>Top</b> Roofers Ltd</h1><hr>
 	</section>
 	<form>
   		<div class="form-row">
