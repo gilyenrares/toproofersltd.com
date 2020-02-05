@@ -1,14 +1,12 @@
 <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-red">
-  <a class="navbar-brand bg-yellow card" href="index.php"><img src="images/logo.png" width="120" height="90" class="d-inline-block align-center badge" alt=""></a>
+  <a class="navbar-brand bg-yellow card" href="index.php"><img src="images/logo.png" width="90" height="60" class="d-inline-block align-center badge" alt=""></a>
   <button class="navbar-toggler navbar-custom" type="button" data-toggle="collapse" data-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">Main Menu
     <span class="navbar-toggler-icon"></span>
   </button>
 
   <div class="collapse navbar-collapse" id="navbarMain"> 
   <?php
-  session_start();
     $text=$_SERVER['PHP_SELF'];
-                              // !!!!! Modify before update!!!!!!
     $rest = substr("$text", 1);
     switch ($rest) {
     case 'index.php':

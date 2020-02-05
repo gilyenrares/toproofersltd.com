@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-red" style="position: fixed;
 width: 100vw;">
-  <button class="navbar-toggler ml-auto navbar-custom" type="button" data-toggle="collapse" data-target="#navbarServices" aria-controls="navbarServices" aria-expanded="false" aria-label="Toggle navigation">Services Menu
+  <button class="navbar-toggler ml-auto mr-3 navbar-custom" type="button" data-toggle="collapse" data-target="#navbarServices" aria-controls="navbarServices" aria-expanded="false" aria-label="Toggle navigation">Services Menu
     <span class="navbar-toggler-icon"></span>
   </button>
 

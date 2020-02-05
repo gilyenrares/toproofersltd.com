@@ -10,6 +10,10 @@
 	<link rel="stylesheet" type="text/css" href="styles/style.css">
 </head>
 <body>
+
+<!-- Info Banner -->
+<?php include 'sections/info-banner.sec.php';?>
+
 <!-- Navigation -->
 <?php include 'sections/navigation.sec.php';?>
 
@@ -25,30 +29,34 @@
 	</section>
 	<section class="container">
 		<div class="row justify-content-md-center">
-    		<div class="col-xl-3 col-lg-4 col-md-6 p-2"><img src="images/1.jpg" class="d-block w-100 mr-auto ml-auto" alt="..."></div>
-        	<div class="col-xl-3 col-lg-4 col-md-6 p-2"><img src="images/2.jpg" class="d-block w-100 mr-auto ml-auto" alt="..."></div>
-        	<div class="col-xl-3 col-lg-4 col-md-6 p-2"><img src="images/3.jpg" class="d-block w-100 mr-auto ml-auto" alt="..."></div>
-        	<div class="col-xl-3 col-lg-4 col-md-6 p-2"><img src="images/4.jpg" class="d-block w-100 mr-auto ml-auto" alt="..."></div>
-        	<div class="col-xl-3 col-lg-4 col-md-6 p-2"><img src="images/5.jpg" class="d-block w-100 mr-auto ml-auto" alt="..."></div>
-        	<div class="col-xl-3 col-lg-4 col-md-6 p-2"><img src="images/6.jpg" class="d-block w-100 mr-auto ml-auto" alt="..."></div>
-        	<div class="col-xl-3 col-lg-4 col-md-6 p-2"><img src="images/7.jpg" class="d-block w-100 mr-auto ml-auto" alt="..."></div>
-        	<div class="col-xl-3 col-lg-4 col-md-6 p-2"><img src="images/8.jpg" class="d-block w-100 mr-auto ml-auto" alt="..."></div>
-       		<div class="col-xl-3 col-lg-4 col-md-6 p-2"><img src="images/9.jpg" class="d-block w-100 mr-auto ml-auto" alt="..."></div>
-        	<div class="col-xl-3 col-lg-4 col-md-6 p-2"><img src="images/10.jpg" class="d-block w-100 mr-auto ml-auto" alt="..."></div>
-        	<div class="col-xl-3 col-lg-4 col-md-6 p-2"><img src="images/11.jpg" class="d-block w-100 mr-auto ml-auto" alt="..."></div>
-        	<div class="col-xl-3 col-lg-4 col-md-6 p-2"><img src="images/12.jpg" class="d-block w-100 mr-auto ml-auto" alt="..."></div>
-        	<div class="col-xl-3 col-lg-4 col-md-6 p-2"><img src="images/13.jpg" class="d-block w-100 mr-auto ml-auto" alt="..."></div>
-        	<div class="col-xl-3 col-lg-4 col-md-6 p-2"><img src="images/14.jpg" class="d-block w-100 mr-auto ml-auto" alt="..."></div>
-        	<div class="col-xl-3 col-lg-4 col-md-6 p-2"><img src="images/15.jpg" class="d-block w-100 mr-auto ml-auto" alt="..."></div>
-        	<div class="col-xl-3 col-lg-4 col-md-6 p-2"><img src="images/16.jpg" class="d-block w-100 mr-auto ml-auto" alt="..."></div>
-        	<div class="col-xl-3 col-lg-4 col-md-6 p-2"><img src="images/17.jpg" class="d-block w-100 mr-auto ml-auto" alt="..."></div>
-        	<div class="col-xl-3 col-lg-4 col-md-6 p-2"><img src="images/18.jpg" class="d-block w-100 mr-auto ml-auto" alt="..."></div>
-        	<div class="col-xl-3 col-lg-4 col-md-6 p-2"><img src="images/19.jpg" class="d-block w-100 mr-auto ml-auto" alt="..."></div>
-        	<div class="col-xl-3 col-lg-4 col-md-6 p-2"><img src="images/20.jpg" class="d-block w-100 mr-auto ml-auto" alt="..."></div>
-        	<div class="col-xl-3 col-lg-4 col-md-6 p-2"><img src="images/21.jpg" class="d-block w-100 mr-auto ml-auto" alt="..."></div>
-        	<div class="col-xl-3 col-lg-4 col-md-6 p-2"><img src="images/22.jpg" class="d-block w-100 mr-auto ml-auto" alt="..."></div>
-        	<div class="col-xl-3 col-lg-4 col-md-6 p-2"><img src="images/23.jpg" class="d-block w-100 mr-auto ml-auto" alt="..."></div>
+    		<div class="col-xl-3 col-lg-4 col-md-6 p-2"><a href="#img1" data-toggle="modal" data-target="#img1"><img src="images/1.jpg" class="d-block w-100 mr-auto ml-auto" alt="..."></a></div>
+            <div class="col-xl-3 col-lg-4 col-md-6 p-2"><a href="#img2" data-toggle="modal" data-target="#img2"><img src="images/2.jpg" class="d-block w-100 mr-auto ml-auto" alt="..."></a></div>
+            <div class="col-xl-3 col-lg-4 col-md-6 p-2"><a href="#img3" data-toggle="modal" data-target="#img3"><img src="images/3.jpg" class="d-block w-100 mr-auto ml-auto" alt="..."></a></div>
+            <div class="col-xl-3 col-lg-4 col-md-6 p-2"><a href="#img4" data-toggle="modal" data-target="#img4"><img src="images/4.jpg" class="d-block w-100 mr-auto ml-auto" alt="..."></a></div>
+            <div class="col-xl-3 col-lg-4 col-md-6 p-2"><a href="#img5" data-toggle="modal" data-target="#img5"><img src="images/5.jpg" class="d-block w-100 mr-auto ml-auto" alt="..."></a></div>
+            <div class="col-xl-3 col-lg-4 col-md-6 p-2"><a href="#img6" data-toggle="modal" data-target="#img6"><img src="images/6.jpg" class="d-block w-100 mr-auto ml-auto" alt="..."></a></div>
+            <div class="col-xl-3 col-lg-4 col-md-6 p-2"><a href="#img7" data-toggle="modal" data-target="#img7"><img src="images/7.jpg" class="d-block w-100 mr-auto ml-auto" alt="..."></a></div>
+            <div class="col-xl-3 col-lg-4 col-md-6 p-2"><a href="#img8" data-toggle="modal" data-target="#img8"><img src="images/8.jpg" class="d-block w-100 mr-auto ml-auto" alt="..."></a></div>
+            <div class="col-xl-3 col-lg-4 col-md-6 p-2"><a href="#img9" data-toggle="modal" data-target="#img9"><img src="images/9.jpg" class="d-block w-100 mr-auto ml-auto" alt="..."></a></div>
+            <div class="col-xl-3 col-lg-4 col-md-6 p-2"><a href="#img10" data-toggle="modal" data-target="#img10"><img src="images/10.jpg" class="d-block w-100 mr-auto ml-auto" alt="..."></a></div>
+            <div class="col-xl-3 col-lg-4 col-md-6 p-2"><a href="#img11" data-toggle="modal" data-target="#img11"><img src="images/11.jpg" class="d-block w-100 mr-auto ml-auto" alt="..."></a></div>
+            <div class="col-xl-3 col-lg-4 col-md-6 p-2"><a href="#img12" data-toggle="modal" data-target="#img12"><img src="images/12.jpg" class="d-block w-100 mr-auto ml-auto" alt="..."></a></div>
+            <div class="col-xl-3 col-lg-4 col-md-6 p-2"><a href="#img13" data-toggle="modal" data-target="#img13"><img src="images/13.jpg" class="d-block w-100 mr-auto ml-auto" alt="..."></a></div>
+            <div class="col-xl-3 col-lg-4 col-md-6 p-2"><a href="#img14" data-toggle="modal" data-target="#img14"><img src="images/14.jpg" class="d-block w-100 mr-auto ml-auto" alt="..."></a></div>
+            <div class="col-xl-3 col-lg-4 col-md-6 p-2"><a href="#img15" data-toggle="modal" data-target="#img15"><img src="images/15.jpg" class="d-block w-100 mr-auto ml-auto" alt="..."></a></div>
+            <div class="col-xl-3 col-lg-4 col-md-6 p-2"><a href="#img16" data-toggle="modal" data-target="#img16"><img src="images/16.jpg" class="d-block w-100 mr-auto ml-auto" alt="..."></a></div>
+            <div class="col-xl-3 col-lg-4 col-md-6 p-2"><a href="#img17" data-toggle="modal" data-target="#img17"><img src="images/17.jpg" class="d-block w-100 mr-auto ml-auto" alt="..."></a></div>
+            <div class="col-xl-3 col-lg-4 col-md-6 p-2"><a href="#img18" data-toggle="modal" data-target="#img18"><img src="images/18.jpg" class="d-block w-100 mr-auto ml-auto" alt="..."></a></div>
+            <div class="col-xl-3 col-lg-4 col-md-6 p-2"><a href="#img19" data-toggle="modal" data-target="#img19"><img src="images/19.jpg" class="d-block w-100 mr-auto ml-auto" alt="..."></a></div>
+            <div class="col-xl-3 col-lg-4 col-md-6 p-2"><a href="#img20" data-toggle="modal" data-target="#img20"><img src="images/20.jpg" class="d-block w-100 mr-auto ml-auto" alt="..."></a></div>
+            <div class="col-xl-3 col-lg-4 col-md-6 p-2"><a href="#img21" data-toggle="modal" data-target="#img21"><img src="images/21.jpg" class="d-block w-100 mr-auto ml-auto" alt="..."></a></div>
+            <div class="col-xl-3 col-lg-4 col-md-6 p-2"><a href="#img22" data-toggle="modal" data-target="#img22"><img src="images/22.jpg" class="d-block w-100 mr-auto ml-auto" alt="..."></a></div>
+            <div class="col-xl-3 col-lg-4 col-md-6 p-2"><a href="#img23" data-toggle="modal" data-target="#img23"><img src="images/23.jpg" class="d-block w-100 mr-auto ml-auto" alt="..."></a></div>
     	</div>
+
+        <!-- Extra large modals library -->
+        <?php include 'includes/modals-lib.inc.php';?>
+        
 	</section>
 	</div>
 </div>

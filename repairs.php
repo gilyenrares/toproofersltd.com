@@ -10,6 +10,10 @@
 	<link rel="stylesheet" type="text/css" href="styles/style.css">
 </head>
 <body>
+
+<!-- Info Banner -->
+<?php include 'sections/info-banner.sec.php';?>
+
 <!-- Navigation -->
 <?php include 'sections/navigation.sec.php';?>
 <?php include 'sections/services-navigation.sec.php';?>

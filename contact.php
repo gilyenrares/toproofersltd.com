@@ -10,41 +10,44 @@
 	<link rel="stylesheet" type="text/css" href="styles/style.css">
 </head>
 <body>
+
+<!-- Info Banner -->
+<?php include 'sections/info-banner.sec.php';?>
+
 <!-- Navigation -->
 <?php include 'sections/navigation.sec.php';?>
-
-<!-- Contact Banner -->
-<div class="contact-banner shadow-lg"></div>
 
 <!-- Main body -->
 <div class="container my-5">
 	<div class="shadow-lg p-3 bg-white rounded">
 	<section>	
 	<h1 class="display-5 text-center">Contact <b>Top</b> Roofers Ltd</h1><hr>
+  <p>Please do not hesitate to get in touch with us for a no-obligation quote, or with any enquires you may have. You can contact us via <a href="mailto:info@toproofersltd.com">email</a>, or <a href="tel:+4475 960 92240">phone</a>, or by using our <a href="#contactForm">contact form</a>.</p>
 	</section>
-	<form>
+
+	<form action="includes/contact.inc.php" method="post" id="contactForm">
   		<div class="form-row">
     		<div class="form-group col-md-6">
  		    	<label for="firstName">Your Name:</label>
-      			<input type="text" class="form-control" id="firstName" placeholder="First Name" required="required">
+      			<input type="text" class="form-control" name="fn" id="firstName" placeholder="First Name" value="<?php if (isset($_GET['fn'])) {echo $_GET['fn'];} ?>" required="required">
     		</div>
     		<div class="form-group col-md-6">
       			<label for="lastName">Family Name:</label>
-      			<input type="text" class="form-control" id="lastName" placeholder="Last Name" required="required">
+      			<input type="text" class="form-control" name="ln" id="lastName" placeholder="Last Name" value="<?php if (isset($_GET['ln'])) {echo $_GET['ln'];} ?>" required="required">
     		</div>
   		</div>
   		<div class="form-group">
     		<label for="email">Email Address:</label>
-    		<input type="email" class="form-control" id="email" placeholder="example@abc.com" required="required">
+    		<input type="email" class="form-control" name="email" id="email" placeholder="example@abc.com" value="<?php if (isset($_GET['email'])) {echo $_GET['email'];} ?>" required="required">
   		</div>
   		<div class="form-row">
     		<div class="form-group col-md-6">
       			<label for="phone">Telephone:</label>
-      			<input type="number" class="form-control" id="phone" placeholder="Phone Number" required="required">
+      			<input type="tel" class="form-control" name="phno" id="phone" placeholder="Phone Number"value="<?php if (isset($_GET['phno'])) {echo $_GET['phno'];} ?>" required="required">
     		</div>
     		<div class="form-group col-md-4">
-      			<label for="inputState">Area:</label>
-      			<select id="inputState" class="form-control" required="required">
+      			<label for="inputArea">Area:</label>
+      			<select id="inputArea" name="area" class="form-control" required="required">
         		<option selected>Choose...</option>
         		<option>Croydon</option>
         		<option>Ealing</option>
@@ -62,16 +65,20 @@
     		</div>
     		<div class="form-group col-md-2">
       			<label for="postcode">Postcode</label>
-      			<input type="text" class="form-control" id="postcode" required="required" >
+      			<input type="text" class="form-control" name="pscd" id="postcode" value="<?php if (isset($_GET['pscd'])) {echo $_GET['pscd'];} ?>" required="required" >
     		</div>
   		</div>
+      <div class="form-group">
+        <label for="description">Describe what service do you require from us</label>
+        <textarea  class="form-control" name="description" id="description" rows="4" value="<?php if (isset($_GET['description'])) {echo $_GET['description'];} ?>" required="required"></textarea>
+      </div>
   		<div class="form-group">
     		<div class="form-check">
-      			<input class="form-check-input" type="checkbox" id="check" required="required">
-      			<label class="form-check-label" for="check">I Agree to receive calls from Top Roofers Ltd.</label>
+      			<input class="form-check-input" name="agree" type="checkbox" id="check" required="required">
+      			<label class="form-check-label" for="check">I Agree to receive a call back from Top Roofers Ltd.</label>
     		</div>
   		</div>
-  		<button type="submit" class="btn btn-primary">Submit Request</button>
+  		<button type="submit" class="btn btn-primary" name="contact-submit">Submit Request</button>
 	</form>
 	</div>
 </div>

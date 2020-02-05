@@ -10,11 +10,15 @@
 	<link rel="stylesheet" type="text/css" href="styles/style.css">
 </head>
 <body>
+
+<!-- Info Banner -->
+<?php include 'sections/info-banner.sec.php';?>
+
 <!-- Navigation -->
 <?php include 'sections/navigation.sec.php';?>
 
 <!-- Carousel with images -->
-<div id="carousel" class="carousel slide carousel-fade border border-danger shadow-lg mx-5 my-3 rounded" data-ride="carousel">
+<div id="carousel" class="carousel slide carousel-fade border border-danger shadow-lg m-3 rounded" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active" data-interval="3000">
       <img src="images/w-6.jpg" class="d-block w-100 mr-auto ml-auto" alt="...">

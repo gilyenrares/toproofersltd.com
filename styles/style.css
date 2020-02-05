@@ -2,7 +2,19 @@
 p {
  	text-indent: 50px;
  }
- .bg-red{
+li{
+
+}
+li spam{
+	color: red;
+}
+.bg-tint{
+	background-color: rgba(0, 0, 0, 0.80);
+}
+.bg-custom{
+	background-color: #e9fb5e;
+}
+.bg-red{
 	background-color:  #007bff;
 }
 .bg-yellow {
@@ -15,6 +27,13 @@ p {
 	color:  #fff;
 }
  /*banners*/
+.logo-banner{
+	background-image: url(../images/logo-min.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 100%;
+	width: 30vw;
+}
 .contact-banner{
     background-image: url(../images/stage.png);
     background-size: cover;
