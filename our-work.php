@@ -39,7 +39,7 @@
             <div class="col-xl-3 col-lg-4 col-md-6 p-2"><a href="#img8" data-toggle="modal" data-target="#img8"><img src="images/8.jpg" class="d-block w-100 mr-auto ml-auto" alt="..."></a></div>
             <div class="col-xl-3 col-lg-4 col-md-6 p-2"><a href="#img9" data-toggle="modal" data-target="#img9"><img src="images/9.jpg" class="d-block w-100 mr-auto ml-auto" alt="..."></a></div>
             <div class="col-xl-3 col-lg-4 col-md-6 p-2"><a href="#img10" data-toggle="modal" data-target="#img10"><img src="images/10.jpg" class="d-block w-100 mr-auto ml-auto" alt="..."></a></div>
-            <div class="col-xl-3 col-lg-4 col-md-6 p-2"><a href="#img11" data-toggle="modal" data-target="#img11"><img src="images/11.jpg" class="d-block w-100 mr-auto ml-auto" alt="..."></a></div>
+            <div class="col-xl-3 col-lg-4 col-md-6 p-2"><a href="#img11" data-toggle="modal" data-target="#img11"><img src="images/11.jpg" class="d-block w-100 h-100 mr-auto ml-auto" alt="..."></a></div>
             <div class="col-xl-3 col-lg-4 col-md-6 p-2"><a href="#img12" data-toggle="modal" data-target="#img12"><img src="images/12.jpg" class="d-block w-100 mr-auto ml-auto" alt="..."></a></div>
             <div class="col-xl-3 col-lg-4 col-md-6 p-2"><a href="#img13" data-toggle="modal" data-target="#img13"><img src="images/13.jpg" class="d-block w-100 mr-auto ml-auto" alt="..."></a></div>
             <div class="col-xl-3 col-lg-4 col-md-6 p-2"><a href="#img14" data-toggle="modal" data-target="#img14"><img src="images/14.jpg" class="d-block w-100 mr-auto ml-auto" alt="..."></a></div>

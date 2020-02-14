@@ -17,15 +17,29 @@
 <!-- Navigation -->
 <?php include 'sections/navigation.sec.php';?>
 
+<!-- Succesful alert -->
+<?php if(isset($_GET['contact-submit'])){
+        echo '<div class="container mt-3 alert alert-success" role="alert">
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="alert-heading">Well done!</h4>
+                <p>Aww yeah, you successfully sent your inquiry. This means that we got your message and we will be in contact with you shortly.</p>
+                <hr>
+                <p class="mb-0">However, if you need to contact us as soon as possible, then <a href="tel:+4475 960 92240">call us</a>.</p>
+              </div>';
+            } ?>
+
 <!-- Main body -->
 <div class="container my-5">
 	<div class="shadow-lg p-3 bg-white rounded">
-	<section>	
+	<section id="contactForm">	
 	<h1 class="display-5 text-center">Contact <b>Top</b> Roofers Ltd</h1><hr>
-  <p>Please do not hesitate to get in touch with us for a no-obligation quote, or with any enquires you may have. You can contact us via <a href="mailto:info@toproofersltd.com">email</a>, or <a href="tel:+4475 960 92240">phone</a>, or by using our <a href="#contactForm">contact form</a>.</p>
+  <p>Please do not hesitate to get in touch with us for a no-obligation quote, or with any inquires you may have. You can contact us via <a href="mailto:info@toproofersltd.com">email</a>, or <a href="tel:+4475 960 92240">phone</a>, or by using our <a href="#contactForm">contact form</a> bellow.</p>
 	</section>
 
-	<form action="includes/contact.inc.php" method="post" id="contactForm">
+<!-- contact form -->
+	<form action="includes/contact.inc.php" method="post">
   		<div class="form-row">
     		<div class="form-group col-md-6">
  		    	<label for="firstName">Your Name:</label>
@@ -78,8 +92,10 @@
       			<label class="form-check-label" for="check">I Agree to receive a call back from Top Roofers Ltd.</label>
     		</div>
   		</div>
-  		<button type="submit" class="btn btn-primary" name="contact-submit">Submit Request</button>
+  		<button type="submit" class="btn btn-outline-success mx-5" name="contact-submit">Submit Request</button><hr>
+      
 	</form>
+  <p><i>If you encounter any issue with our website or any other related problem, please let us know about it. </i><button class="btn btn-outline-danger my-2 mx-5">Report Issue</button></p>
 	</div>
 </div>
 <!-- Footer -->

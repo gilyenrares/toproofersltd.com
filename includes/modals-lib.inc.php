@@ -1,7 +1,7 @@
 <!-- Extra large modal -->
         <div class="modal fade bg-tint" id="img1" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
           <div class="modal-dialog modal-xl">
-            <div class="modal-content bg-primary">
+            <div class="modal-content bg-main">
             	<div class="modal-header">
         			<h5 class="modal-title text-white">Top Roofers Ltd</h5>
         			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -15,7 +15,7 @@
 <!-- Extra large modal -->
         <div class="modal fade bg-tint" id="img2" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
           <div class="modal-dialog modal-xl">
-            <div class="modal-content bg-primary">
+            <div class="modal-content bg-main">
             	<div class="modal-header">
         			<h5 class="modal-title text-white">Top Roofers Ltd</h5>
         			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -29,7 +29,7 @@
 <!-- Extra large modal -->
         <div class="modal fade bg-tint" id="img3" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
           <div class="modal-dialog modal-xl">
-            <div class="modal-content bg-primary">
+            <div class="modal-content bg-main">
             	<div class="modal-header">
         			<h5 class="modal-title text-white">Top Roofers Ltd</h5>
         			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -43,7 +43,7 @@
 <!-- Extra large modal -->
         <div class="modal fade bg-tint" id="img4" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
           <div class="modal-dialog modal-xl">
-            <div class="modal-content bg-primary">
+            <div class="modal-content bg-main">
             	<div class="modal-header">
         			<h5 class="modal-title text-white">Top Roofers Ltd</h5>
         			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -57,7 +57,7 @@
 <!-- Extra large modal -->
         <div class="modal fade bg-tint" id="img5" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
           <div class="modal-dialog modal-xl">
-            <div class="modal-content bg-primary">
+            <div class="modal-content bg-main">
             	<div class="modal-header">
         			<h5 class="modal-title text-white">Top Roofers Ltd</h5>
         			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -71,7 +71,7 @@
 <!-- Extra large modal -->
         <div class="modal fade bg-tint" id="img6" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
           <div class="modal-dialog modal-xl">
-            <div class="modal-content bg-primary">
+            <div class="modal-content bg-main">
             	<div class="modal-header">
         			<h5 class="modal-title text-white">Top Roofers Ltd</h5>
         			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -85,7 +85,7 @@
 <!-- Extra large modal -->
         <div class="modal fade bg-tint" id="img7" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
           <div class="modal-dialog modal-xl">
-            <div class="modal-content bg-primary">
+            <div class="modal-content bg-main">
             	<div class="modal-header">
         			<h5 class="modal-title text-white">Top Roofers Ltd</h5>
         			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -99,7 +99,7 @@
 <!-- Extra large modal -->
         <div class="modal fade bg-tint" id="img8" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
           <div class="modal-dialog modal-xl">
-            <div class="modal-content bg-primary">
+            <div class="modal-content bg-main">
             	<div class="modal-header">
         			<h5 class="modal-title text-white">Top Roofers Ltd</h5>
         			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -113,7 +113,7 @@
 <!-- Extra large modal -->
         <div class="modal fade bg-tint" id="img9" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
           <div class="modal-dialog modal-xl">
-            <div class="modal-content bg-primary">
+            <div class="modal-content bg-main">
             	<div class="modal-header">
         			<h5 class="modal-title text-white">Top Roofers Ltd</h5>
         			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -127,7 +127,7 @@
 <!-- Extra large modal -->
         <div class="modal fade bg-tint" id="img10" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
           <div class="modal-dialog modal-xl">
-            <div class="modal-content bg-primary">
+            <div class="modal-content bg-main">
             	<div class="modal-header">
         			<h5 class="modal-title text-white">Top Roofers Ltd</h5>
         			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -141,7 +141,7 @@
 <!-- Extra large modal -->
         <div class="modal fade bg-tint" id="img11" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
           <div class="modal-dialog modal-xl">
-            <div class="modal-content bg-primary">
+            <div class="modal-content bg-main">
             	<div class="modal-header">
         			<h5 class="modal-title text-white">Top Roofers Ltd</h5>
         			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -155,7 +155,7 @@
 <!-- Extra large modal -->
         <div class="modal fade bg-tint" id="img12" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
           <div class="modal-dialog modal-xl">
-            <div class="modal-content bg-primary">
+            <div class="modal-content bg-main">
             	<div class="modal-header">
         			<h5 class="modal-title text-white">Top Roofers Ltd</h5>
         			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -169,7 +169,7 @@
 <!-- Extra large modal -->
         <div class="modal fade bg-tint" id="img13" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
           <div class="modal-dialog modal-xl">
-            <div class="modal-content bg-primary">
+            <div class="modal-content bg-main">
             	<div class="modal-header">
         			<h5 class="modal-title text-white">Top Roofers Ltd</h5>
         			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -183,7 +183,7 @@
 <!-- Extra large modal -->
         <div class="modal fade bg-tint" id="img14" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
           <div class="modal-dialog modal-xl">
-            <div class="modal-content bg-primary">
+            <div class="modal-content bg-main">
             	<div class="modal-header">
         			<h5 class="modal-title text-white">Top Roofers Ltd</h5>
         			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -197,7 +197,7 @@
 <!-- Extra large modal -->
         <div class="modal fade bg-tint" id="img15" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
           <div class="modal-dialog modal-xl">
-            <div class="modal-content bg-primary">
+            <div class="modal-content bg-main">
             	<div class="modal-header">
         			<h5 class="modal-title text-white">Top Roofers Ltd</h5>
         			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -211,7 +211,7 @@
 <!-- Extra large modal -->
         <div class="modal fade bg-tint" id="img16" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
           <div class="modal-dialog modal-xl">
-            <div class="modal-content bg-primary">
+            <div class="modal-content bg-main">
             	<div class="modal-header">
         			<h5 class="modal-title text-white">Top Roofers Ltd</h5>
         			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -225,7 +225,7 @@
 <!-- Extra large modal -->
         <div class="modal fade bg-tint" id="img17" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
           <div class="modal-dialog modal-xl">
-            <div class="modal-content bg-primary">
+            <div class="modal-content bg-main">
             	<div class="modal-header">
         			<h5 class="modal-title text-white">Top Roofers Ltd</h5>
         			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -239,7 +239,7 @@
 <!-- Extra large modal -->
         <div class="modal fade bg-tint" id="img18" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
           <div class="modal-dialog modal-xl">
-            <div class="modal-content bg-primary">
+            <div class="modal-content bg-main">
             	<div class="modal-header">
         			<h5 class="modal-title text-white">Top Roofers Ltd</h5>
         			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -253,7 +253,7 @@
 <!-- Extra large modal -->
         <div class="modal fade bg-tint" id="img19" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
           <div class="modal-dialog modal-xl">
-            <div class="modal-content bg-primary">
+            <div class="modal-content bg-main">
             	<div class="modal-header">
         			<h5 class="modal-title text-white">Top Roofers Ltd</h5>
         			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -267,7 +267,7 @@
 <!-- Extra large modal -->
         <div class="modal fade bg-tint" id="img20" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
           <div class="modal-dialog modal-xl">
-            <div class="modal-content bg-primary">
+            <div class="modal-content bg-main">
             	<div class="modal-header">
         			<h5 class="modal-title text-white">Top Roofers Ltd</h5>
         			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -281,7 +281,7 @@
 <!-- Extra large modal -->
         <div class="modal fade bg-tint" id="img21" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
           <div class="modal-dialog modal-xl">
-            <div class="modal-content bg-primary">
+            <div class="modal-content bg-main">
             	<div class="modal-header">
         			<h5 class="modal-title text-white">Top Roofers Ltd</h5>
         			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -295,7 +295,7 @@
 <!-- Extra large modal -->
         <div class="modal fade bg-tint" id="img22" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
           <div class="modal-dialog modal-xl">
-            <div class="modal-content bg-primary">
+            <div class="modal-content bg-main">
             	<div class="modal-header">
         			<h5 class="modal-title text-white">Top Roofers Ltd</h5>
         			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -309,7 +309,7 @@
 <!-- Extra large modal -->
         <div class="modal fade bg-tint" id="img23" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
           <div class="modal-dialog modal-xl">
-            <div class="modal-content bg-primary">
+            <div class="modal-content bg-main">
             	<div class="modal-header">
         			<h5 class="modal-title text-white">Top Roofers Ltd</h5>
         			<button type="button" class="close" data-dismiss="modal" aria-label="Close">

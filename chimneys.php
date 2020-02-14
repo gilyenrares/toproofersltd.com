@@ -15,8 +15,10 @@
 <?php include 'sections/info-banner.sec.php';?>
 
 <!-- Navigation -->
-<?php include 'sections/navigation.sec.php';?>
-<?php include 'sections/services-navigation.sec.php';?>
+<div class="sticky-top">
+	<?php include 'sections/navigation.sec.php';?>
+	<?php include 'sections/services-navigation.sec.php';?>
+</div>
 
 <!-- Roof Banner -->
 <div class="roof-banner shadow-lg"></div>

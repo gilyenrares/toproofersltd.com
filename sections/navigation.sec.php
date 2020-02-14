@@ -1,5 +1,6 @@
-<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-red">
-  <a class="navbar-brand bg-yellow card" href="index.php"><img src="images/logo.png" width="90" height="60" class="d-inline-block align-center badge" alt=""></a>
+<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-main border border-dark">
+  <div class="container">
+  <a class="navbar-brand bg-white card border border-dark" href="index.php"><img src="images/logo.png" width="90" height="60" class="d-inline-block align-center badge" alt=""></a>
   <button class="navbar-toggler navbar-custom" type="button" data-toggle="collapse" data-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">Main Menu
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -19,7 +20,7 @@
             </li>
            <li class="nav-item inactive dropdown">
               <a class="nav-link dropdown-toggle" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Roofing    Services</a>
-            <div class="dropdown-menu bg-red" aria-labelledby="dropdownMenuLink">
+            <div class="dropdown-menu bg-main" aria-labelledby="dropdownMenuLink">
               <a class="dropdown-item" href="commercial-roofing.php">Commercial Roofing</a>
               <a class="dropdown-item" href="chimneys.php">Chimneys</a>
               <a class="dropdown-item" href="flat-roofing.php">Flat Roofing</a>
@@ -49,7 +50,7 @@
             </li>
             <li class="nav-item inactive dropdown">
               <a class="nav-link dropdown-toggle" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Roofing    Services</a>
-            <div class="dropdown-menu bg-red" aria-labelledby="dropdownMenuLink">
+            <div class="dropdown-menu bg-main" aria-labelledby="dropdownMenuLink">
               <a class="dropdown-item" href="commercial-roofing.php">Commercial Roofing</a>
               <a class="dropdown-item" href="chimneys.php">Chimneys</a>
               <a class="dropdown-item" href="flat-roofing.php">Flat Roofing</a>
@@ -211,7 +212,7 @@
             </li>
            <li class="nav-item inactive dropdown">
               <a class="nav-link dropdown-toggle" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Roofing    Services</a>
-            <div class="dropdown-menu bg-red" aria-labelledby="dropdownMenuLink">
+            <div class="dropdown-menu bg-main" aria-labelledby="dropdownMenuLink">
               <a class="dropdown-item" href="commercial-roofing.php">Commercial Roofing</a>
               <a class="dropdown-item" href="chimneys.php">Chimneys</a>
               <a class="dropdown-item" href="flat-roofing.php">Flat Roofing</a>
@@ -241,7 +242,7 @@
             </li>
            <li class="nav-item inactive dropdown">
               <a class="nav-link dropdown-toggle" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Roofing    Services</a>
-            <div class="dropdown-menu bg-red" aria-labelledby="dropdownMenuLink">
+            <div class="dropdown-menu bg-main" aria-labelledby="dropdownMenuLink">
               <a class="dropdown-item" href="commercial-roofing.php">Commercial Roofing</a>
               <a class="dropdown-item" href="chimneys.php">Chimneys</a>
               <a class="dropdown-item" href="flat-roofing.php">Flat Roofing</a>
@@ -271,7 +272,7 @@
             </li>
            <li class="nav-item inactive dropdown">
               <a class="nav-link dropdown-toggle" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Roofing    Services</a>
-            <div class="dropdown-menu bg-red" aria-labelledby="dropdownMenuLink">
+            <div class="dropdown-menu bg-main" aria-labelledby="dropdownMenuLink">
               <a class="dropdown-item" href="commercial-roofing.php">Commercial Roofing</a>
               <a class="dropdown-item" href="chimneys.php">Chimneys</a>
               <a class="dropdown-item" href="flat-roofing.php">Flat Roofing</a>
@@ -301,7 +302,7 @@
             </li>
            <li class="nav-item inactive dropdown">
               <a class="nav-link dropdown-toggle" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Roofing    Services</a>
-            <div class="dropdown-menu bg-red" aria-labelledby="dropdownMenuLink">
+            <div class="dropdown-menu bg-main" aria-labelledby="dropdownMenuLink">
               <a class="dropdown-item" href="commercial-roofing.php">Commercial Roofing</a>
               <a class="dropdown-item" href="chimneys.php">Chimneys</a>
               <a class="dropdown-item" href="flat-roofing.php">Flat Roofing</a>
@@ -323,5 +324,6 @@
 break;
 } 
 ?>
+  </div>
   </div>
 </nav>

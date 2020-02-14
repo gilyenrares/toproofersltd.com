@@ -1,5 +1,5 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-red" style="position: fixed;
-width: 100vw;">
+<nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-main">
+<div class="container">
   <button class="navbar-toggler ml-auto mr-3 navbar-custom" type="button" data-toggle="collapse" data-target="#navbarServices" aria-controls="navbarServices" aria-expanded="false" aria-label="Toggle navigation">Services Menu
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -7,8 +7,8 @@ width: 100vw;">
   <div class="collapse navbar-collapse" id="navbarServices"> 
   <?php
     $text=$_SERVER['PHP_SELF'];
-                              // !!!!! Modify before update!!!!!!
-    $rest = substr("$text", 19);
+                              // !!!!! Modify before update 19 to 1!!!!!!
+    $rest = substr("$text", 1);
     switch ($rest) {
     case 'commercial-roofing.php':
     echo '<ul class="navbar-nav ml-auto mt-2 mt-lg-0">
@@ -167,4 +167,5 @@ width: 100vw;">
 }   
 ?>
   </div>
+</div>
 </nav>

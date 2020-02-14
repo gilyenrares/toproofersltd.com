@@ -11,22 +11,34 @@ li spam{
 .bg-tint{
 	background-color: rgba(0, 0, 0, 0.80);
 }
+/*custom color info banner*/
 .bg-custom{
 	background-color: #e9fb5e;
 }
-.bg-red{
-	background-color:  #007bff;
+.bg-main{
+	background-color:  #233f92;
 }
 .bg-yellow {
 	background-color:  #fff;
 }
 .red{
-	color:  #007bff;
+	color:  #233f92;
 }
 .yellow {
 	color:  #fff;
 }
+.s-link a {
+	background-color: #233f92;
+	color: #fff;
+}
+.s-link a:hover {
+	background-color: #fff;
+	color: #000;
+	text-decoration: overline;
+	text-decoration-color: #dc3545;
+}
  /*banners*/
+}
 .logo-banner{
 	background-image: url(../images/logo-min.png);
 	background-size: contain;
@@ -70,18 +82,23 @@ li spam{
 }
 .activ{
 	background-color: #fff;
-	color: #007bff !important;
+	color: #233f92 !important;
 	border: 10px solid #fff;
 	border-radius: 8px;
 }
 .active a{
 	background-color: #fff;
-	color: #007bff !important;
+	color: #233f92 !important;
 	border: 10px solid #fff;
 	border-radius: 8px;
+	text-decoration: overline;
+	text-decoration-color: #dc3545;
 }
 .active a:hover{
 	color: #000 !important;
+	text-decoration: overline;
+	text-decoration-style: double;
+	text-decoration-color: #dc3545;
 }
 .inactive{
 	margin-left: 2px;
@@ -89,19 +106,22 @@ li spam{
 }
 .inactive a{
 	color: #fff !important;
-	border: 10px solid #007bff;
+	border: 10px solid #233f92;
 }
 .inactive a:hover{
 	background-color: #fff;
 	color: #000 !important;
 	border: 10px solid #fff;
 	border-radius: 8px;
+	text-decoration: overline;
+	text-decoration-style: double;
+	text-decoration-color: #dc3545;
 }
 .dropdown-item{
 	font-weight: bold !important;
 	text-transform: uppercase;
 	color: #fff !important;
-	border: 10px solid #007bff;
+	border: 10px solid #233f92;
 }
 .dropdown-item:hover{
 	background-color: #fff;
