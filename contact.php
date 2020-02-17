@@ -30,11 +30,17 @@
               </div>';
             } ?>
 
+<div class="container my-5">
+  <div class="shadow-lg p-3 bg-white border-top border-danger rounded">
+    <h1 class="display-5 text-center">Welcome to <b>Top</b>RoofersLtd</h1>
+  </div>
+</div>
+
 <!-- Main body -->
 <div class="container my-5">
 	<div class="shadow-lg p-3 bg-white rounded">
 	<section id="contactForm">	
-	<h1 class="display-5 text-center">Contact <b>Top</b> Roofers Ltd</h1><hr>
+	<h1 class="display-5 text-center">Contact <b>Top</b>RoofersLtd</h1><hr>
   <p>Please do not hesitate to get in touch with us for a no-obligation quote, or with any inquires you may have. You can contact us via <a href="mailto:info@toproofersltd.com">email</a>, or <a href="tel:+4475 960 92240">phone</a>, or by using our <a href="#contactForm">contact form</a> bellow.</p>
 	</section>
 

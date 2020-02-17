@@ -159,7 +159,7 @@
             <li class="nav-item inactive">
               <a class="nav-link" href="new-roofs.php">New Roofs</a>
             </li>
-            <li class="nav-item active">
+            <li class="nav-item inactive">
               <a class="nav-link" href="repairs.php">Repairs</a>
             </li>
           </ul>';

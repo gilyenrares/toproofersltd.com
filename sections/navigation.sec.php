@@ -16,7 +16,7 @@
               <a class="nav-link" href="index.php">Home</a>
             </li>
             <li class="nav-item inactive">
-              <a class="nav-link" href="our-work.php">Our Work</a>
+              <a class="nav-link" href="references.php">References</a>
             </li>
            <li class="nav-item inactive dropdown">
               <a class="nav-link dropdown-toggle" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Roofing    Services</a>
@@ -40,13 +40,13 @@
             </li>
           </ul>';
     break;
-    case 'our-work.php':
+    case 'references.php':
     echo '<ul class="navbar-nav ml-auto mt-2 mt-lg-0">
             <li class="nav-item inactive">
               <a class="nav-link" href="index.php">Home</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="our-work.php">Our Work</a>
+              <a class="nav-link" href="references.php">References</a>
             </li>
             <li class="nav-item inactive dropdown">
               <a class="nav-link dropdown-toggle" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Roofing    Services</a>
@@ -76,7 +76,7 @@
               <a class="nav-link" href="index.php">Home</a>
             </li>
             <li class="nav-item inactive">
-              <a class="nav-link" href="our-work.php">Our Work</a>
+              <a class="nav-link" href="references.php">References</a>
             </li>
             <li class="nav-item active">
               <a class="nav-link" href="#navbarServices">Roofing Services</a>
@@ -98,7 +98,7 @@
               <a class="nav-link" href="index.php">Home</a>
             </li>
             <li class="nav-item inactive">
-              <a class="nav-link" href="our-work.php">Our Work</a>
+              <a class="nav-link" href="references.php">References</a>
             </li>
             <li class="nav-item active">
               <a class="nav-link" href="#navbarServices">Roofing Services</a>
@@ -120,7 +120,7 @@
               <a class="nav-link" href="index.php">Home</a>
             </li>
             <li class="nav-item inactive">
-              <a class="nav-link" href="our-work.php">Our Work</a>
+              <a class="nav-link" href="references.php">References</a>
             </li>
             <li class="nav-item active">
               <a class="nav-link" href="#navbarServices">Roofing Services</a>
@@ -142,7 +142,7 @@
               <a class="nav-link" href="index.php">Home</a>
             </li>
             <li class="nav-item inactive">
-              <a class="nav-link" href="our-work.php">Our Work</a>
+              <a class="nav-link" href="references.php">References</a>
             </li>
             <li class="nav-item active">
               <a class="nav-link" href="#navbarServices">Roofing Services</a>
@@ -164,7 +164,7 @@
               <a class="nav-link" href="index.php">Home</a>
             </li>
             <li class="nav-item inactive">
-              <a class="nav-link" href="our-work.php">Our Work</a>
+              <a class="nav-link" href="references.php">References</a>
             </li>
             <li class="nav-item active">
               <a class="nav-link" href="#navbarServices">Roofing Services</a>
@@ -186,7 +186,7 @@
               <a class="nav-link" href="index.php">Home</a>
             </li>
             <li class="nav-item inactive">
-              <a class="nav-link" href="our-work.php">Our Work</a>
+              <a class="nav-link" href="references.php">References</a>
             </li>
             <li class="nav-item active">
               <a class="nav-link" href="#navbarServices">Roofing Services</a>
@@ -208,7 +208,7 @@
               <a class="nav-link" href="index.php">Home</a>
             </li>
             <li class="nav-item inactive">
-              <a class="nav-link" href="our-work.php">Our Work</a>
+              <a class="nav-link" href="references.php">References</a>
             </li>
            <li class="nav-item inactive dropdown">
               <a class="nav-link dropdown-toggle" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Roofing    Services</a>
@@ -238,7 +238,7 @@
               <a class="nav-link" href="index.php">Home</a>
             </li>
             <li class="nav-item inactive">
-              <a class="nav-link" href="our-work.php">Our Work</a>
+              <a class="nav-link" href="references.php">References</a>
             </li>
            <li class="nav-item inactive dropdown">
               <a class="nav-link dropdown-toggle" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Roofing    Services</a>
@@ -268,7 +268,7 @@
               <a class="nav-link" href="index.php">Home</a>
             </li>
             <li class="nav-item inactive">
-              <a class="nav-link" href="our-work.php">Our Work</a>
+              <a class="nav-link" href="references.php">References</a>
             </li>
            <li class="nav-item inactive dropdown">
               <a class="nav-link dropdown-toggle" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Roofing    Services</a>
@@ -298,7 +298,7 @@
               <a class="nav-link" href="index.php">Home</a>
             </li>
             <li class="nav-item inactive">
-              <a class="nav-link" href="our-work.php">Our Work</a>
+              <a class="nav-link" href="references.php">References</a>
             </li>
            <li class="nav-item inactive dropdown">
               <a class="nav-link dropdown-toggle" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Roofing    Services</a>

@@ -4,6 +4,7 @@
 	<title>Top Roofers Ltd</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-site-verification" content="h7IFHI52_xaIoHS9kTdC3nWRa5O1_bignZHJTulnVtw" />
   <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"/>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
@@ -19,7 +20,7 @@
 
 <div class="container my-5">
   <div class="shadow-lg p-3 bg-white border-top border-danger rounded">
-    <h1 class="display-5 text-center">Welcome to <b>Top</b> Roofers Ltd</h1>
+    <h1 class="display-5 text-center">Welcome to <b>Top</b>RoofersLtd</h1>
   </div>
 </div>
 
@@ -28,7 +29,7 @@
   <div id="carousel" class="carousel slide carousel-fade border border-dark shadow-lg mt-5 rounded" data-ride="carousel">
     <div class="s-link">
       <a class="d-block px-5 py-3 text-center border border-dark shadow-lg rounded" href="our-work.php">
-        <h2>Our Work</h2>
+        <h2>References</h2>
       </a>
     </div>
     <div class="carousel-inner">
