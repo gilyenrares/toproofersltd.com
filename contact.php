@@ -30,9 +30,19 @@
               </div>';
             } ?>
 
+<!--Contact details-->
 <div class="container my-5">
-  <div class="shadow-lg p-3 bg-white border-top border-danger rounded">
-    <h1 class="display-5 text-center">Welcome to <b>Top</b>RoofersLtd</h1>
+  <div class="shadow-lg bg-white border-top border-danger rounded">
+    <div class="s-link">
+      <a class="d-block px-5 py-3 text-center border border-dark shadow-lg rounded" href="about.php">
+        <h2>Contact Details</h2>
+      </a>
+    </div>
+    
+  <section class="p-3">
+    <p>Our team are dedicated and experienced roofers who strive to make your roofing work painless and as straight forward as possible. Using only the best quality roofing materials on the market today, we build roofs that are built to last but also look great for many years to come.</p>
+    <p>When looking for a reputable roofing company, you need to know that they are fully qualified and vetted, competent at what they do and will get the job done efficiently and professionally at an affordable price.</p>
+  </section>
   </div>
 </div>
 
