@@ -17,26 +17,27 @@
 <!-- Navigation -->
 <?php include 'sections/navigation.sec.php';?>
 
-<!-- Roof Banner -->
-<div class="roof-banner shadow-lg"></div>
+<!-- Title Banner -->
+<div class="container my-5">
+  <div class="shadow-lg p-5 bg-white border-top border-danger rounded">
+    <h1 class="display-5 text-center"><b>Top</b>RoofersLtd Service Area</h1>
+  </div>
+</div>
 
 <!-- Main body -->
-<div class="container mb-5">
-	<div class="shadow-lg p-3 bg-white rounded">
-	<section>	
-	<h1 class="display-5 text-center">Welcome to <b>Top</b> Roofers Ltd</h1><hr>
+<div class="container my-5">
+  <div class="shadow-lg bg-white border-top border-danger rounded">
+    <div class="s-link">
+      <a class="d-block px-5 py-3 text-center border border-dark shadow-lg rounded" href="#">
+        <h2>South-West London</h2>
+      </a>
+    </div>
+  	<section class="p-3">
+    	<img src="images/s-w-london.jpg" class="rounded w-100" alt="Marked area of South-West London">
 	</section>
-	<section>
-	<div class="tape-banner"></div>
-	<h1>Page In Development</h1>
-	<div class="tape-banner"></div>
-		<article>
-			<p>Text in here, text in there, basicaly text everywhere.Text in here, text in there, basicaly text everywhere.Text in here, text in there, basicaly text everywhere.Text in here, text in there, basicaly text everywhere.Text in here, text in there, basicaly text everywhere.</p>
-     		<p>Text in here, text in there, basicaly text everywhere.Text in here, text in there, basicaly text everywhere.Text in here, text in there, basicaly text everywhere.Text in here, text in there, basicaly text everywhere.</p>
-  		</article>
-	</section>
-	</div>
+  </div>
 </div>
+
 <!-- Footer -->
 <?php include "sections/footer.sec.php" ?>
 <!-- Scripts -->

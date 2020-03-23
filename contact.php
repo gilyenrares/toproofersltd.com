@@ -30,7 +30,7 @@
               </div>';
             } ?>
 
-<!--Contact details-->
+<!-- Title Banner -->
 <div class="container my-5">
   <div class="shadow-lg bg-white border-top border-danger rounded">
     <div class="s-link">
@@ -41,7 +41,8 @@
     
   <section class="p-3">
     <p>Our team are dedicated and experienced roofers who strive to make your roofing work painless and as straight forward as possible. Using only the best quality roofing materials on the market today, we build roofs that are built to last but also look great for many years to come.</p>
-    <p>When looking for a reputable roofing company, you need to know that they are fully qualified and vetted, competent at what they do and will get the job done efficiently and professionally at an affordable price.</p>
+    <!-- id requiered for good positioning of the viewframe -->
+    <p id="get-quote">When looking for a reputable roofing company, you need to know that they are fully qualified and vetted, competent at what they do and will get the job done efficiently and professionally at an affordable price.</p>
   </section>
   </div>
 </div>
@@ -73,12 +74,12 @@
   		<div class="form-row">
     		<div class="form-group col-md-6">
       			<label for="phone">Telephone:</label>
-      			<input type="tel" class="form-control" name="phno" id="phone" placeholder="Phone Number"value="<?php if (isset($_GET['phno'])) {echo $_GET['phno'];} ?>" required="required">
+      			<input type="phone" class="form-control" name="phno" id="phone" placeholder="Phone Number"value="<?php if (isset($_GET['phno'])) {echo $_GET['phno'];} ?>" required="required">
     		</div>
     		<div class="form-group col-md-4">
       			<label for="inputArea">Area:</label>
       			<select id="inputArea" name="area" class="form-control" required="required">
-        		<option selected>Choose...</option>
+        		<option>Other Area</option>
         		<option>Croydon</option>
         		<option>Ealing</option>
         		<option>Fulham</option>
@@ -90,7 +91,6 @@
         		<option>Richmond</option>
         		<option>Sutton</option>
         		<option>Wandsworth</option>
-        		<option>Other Area</option>
       			</select>
     		</div>
     		<div class="form-group col-md-2">
@@ -108,10 +108,12 @@
       			<label class="form-check-label" for="check">I Agree to receive a call back from Top Roofers Ltd.</label>
     		</div>
   		</div>
-  		<button type="submit" class="btn btn-outline-success mx-5" name="contact-submit">Submit Request</button><hr>
-      
-	</form>
-  <p><i>If you encounter any issue with our website or any other related problem, please let us know about it. </i><button class="btn btn-outline-danger my-2 mx-5">Report Issue</button></p>
+      <div class="btn-group btn-group-lg d-flex mt-2" role="group" aria-label="Basic example">
+        <button type="submit" class="btn btn-success border-secondary mr-2 rounded text-white" name="contact-submit" >Submit Request</button>
+        <a type="button" class="btn btn-warning border-secondary rounded text-white" href="https://rbg-dev.com/contact.php" target="_blank">Report Issue *</a>
+      </div> 
+	</form><hr>
+  <p><i>* If you encounter any issue with our website or any other related problem, please notify </i><img src="images/rbg-logo.png" width="38" height="19"> RBG-DEVELOPMENT<i> our partner web development team, by using the button above (NOTE: YOU WILL BE REDIRECTED TO RBG-DEVELOPMET WEBSITE). </i></p>
 	</div>
 </div>
 <!-- Footer -->

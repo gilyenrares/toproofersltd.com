@@ -320,4 +320,59 @@
             </div>
           </div>
         </div>
- 
+<!-- Extra large modal -->
+        <div class="modal fade bg-tint" id="chimney" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-xl">
+            <div class="modal-content bg-main">
+              <div class="modal-header">
+              <h5 class="modal-title text-white">Top Roofers Ltd</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+              <img src="images/chimney.jpg" class="d-block w-100 mr-auto ml-auto" alt="...">
+            </div>
+          </div>
+        </div> 
+<!-- Extra large modal -->
+        <div class="modal fade bg-tint" id="guttering" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-xl">
+            <div class="modal-content bg-main">
+              <div class="modal-header">
+              <h5 class="modal-title text-white">Top Roofers Ltd</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+              <img src="images/guttering.jpg" class="d-block w-100 mr-auto ml-auto" alt="...">
+            </div>
+          </div>
+        </div> 
+<!-- Extra large modal -->
+        <div class="modal fade bg-tint" id="tile-roof" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-xl">
+            <div class="modal-content bg-main">
+              <div class="modal-header">
+              <h5 class="modal-title text-white">Top Roofers Ltd</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+              <img src="images/tile-roof.jpg" class="d-block w-100 mr-auto ml-auto" alt="...">
+            </div>
+          </div>
+        </div>
+<!-- Extra large modal -->
+        <div class="modal fade bg-tint" id="slate-roof" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-xl">
+            <div class="modal-content bg-main">
+              <div class="modal-header">
+              <h5 class="modal-title text-white">Top Roofers Ltd</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+              <img src="images/slate-roof.jpg" class="d-block w-100 mr-auto ml-auto" alt="...">
+            </div>
+          </div>
+        </div>  

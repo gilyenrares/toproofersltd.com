@@ -27,6 +27,10 @@ li spam{
 .yellow {
 	color:  #fff;
 }
+.img-link a:hover {
+	border-width: 20px;
+	border-color: #233f92;
+}
 .s-link a {
 	background-color: #233f92;
 	color: #fff;
@@ -37,8 +41,11 @@ li spam{
 	text-decoration: overline;
 	text-decoration-color: #dc3545;
 }
- /*banners*/
+.icon{
+ 	height: 32px;
+ 	width: 32px;
 }
+/*banners*/
 .logo-banner{
 	background-image: url(../images/logo-min.png);
 	background-size: contain;

@@ -15,7 +15,7 @@
             </div>
         	<div class="col-sm-4">
           		<div class="row justify-content-sm-center">
-                     <img src="images/logo-min.png" style="max-height: 100%; max-width: 200px;">      
+                     <img src="images/logo-min.png" style="max-height: 150px; max-width: 200px;">      
                 </div>
         	</div>
             <div class="col-sm-4">

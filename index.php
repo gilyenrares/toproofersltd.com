@@ -19,7 +19,7 @@
 <?php include 'sections/navigation.sec.php';?>
 
 <div class="container my-5">
-  <div class="shadow-lg p-3 bg-white border-top border-danger rounded">
+  <div class="shadow-lg p-5 bg-white border-top border-danger rounded">
     <h1 class="display-5 text-center">Welcome to <b>Top</b>RoofersLtd</h1>
   </div>
 </div>
@@ -88,22 +88,22 @@
     </div>
     <div class="row p-3 justify-content-md-center">
       <div class="col-xl-4 col-lg-4 col-md-6 p-2">
+        <div class="card" >
+          <img src="images/10.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Commercial Roofing</h5>
+              <p class="card-text">Commercial roofing is one of the services that we provide to different businesses, covering a wide range of shapes and sizes for most types of warehouses...</p>
+              <a href="commercial-roofing.php" class="btn btn-outline-info">Find Out More</a>
+            </div>
+          </div>
+      </div>
+      <div class="col-xl-4 col-lg-4 col-md-6 p-2">
         <div class="card">
           <img src="images/chimney.jpg" class="card-img-top" alt="Picture of chimney">
             <div class="card-body">
               <h5 class="card-title">Chimneys</h5>
               <p class="card-text">We offer a variety of services dealing in regards with chimney work such as: building or rebuilding of chimneys, lead work, tiles, mortar and re-pointing...</p>
-              <a href="#" class="btn btn-outline-info">Find Out More</a>
-            </div>
-          </div>
-      </div>
-      <div class="col-xl-4 col-lg-4 col-md-6 p-2">
-        <div class="card" >
-          <img src="images/1.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Commercial Roofing</h5>
-              <p class="card-text">Commercial roofing is one of the services that we provide to different businesses, covering a wide range of shapes and sizes for most types of warehouses...</p>
-              <a href="#" class="btn btn-outline-info">Find Out More</a>
+              <a href="chimneys.php" class="btn btn-outline-info">Find Out More</a>
             </div>
           </div>
       </div>
@@ -113,17 +113,17 @@
             <div class="card-body">
               <h5 class="card-title">Flat Roofing</h5>
               <p class="card-text">We offer a wide range of flat roofing services. From torch on felt, GRP fiberglass to EPDM rubber roofing according to customer requirements…</p>
-              <a href="#" class="btn btn-outline-info">Find Out More</a>
+              <a href="flat-roofing.php" class="btn btn-outline-info">Find Out More</a>
             </div>
           </div>
       </div>
       <div class="col-xl-4 col-lg-4 col-md-6 p-2">
         <div class="card" >
-          <img src="images/1.jpg" class="card-img-top" alt="...">
+          <img src="images/guttering.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Guttering & UPVC Fascias</h5>
+              <h5 class="card-title">Roofline Services</h5>
               <p class="card-text"> We can provide guttering to fit any type of property covering a wide range of types and shapes. We also offer a gutter maintenance service… </p>
-              <a href="#" class="btn btn-outline-info">Find Out More</a>
+              <a href="roofline.php" class="btn btn-outline-info">Find Out More</a>
             </div>
           </div>
       </div>
@@ -133,7 +133,7 @@
             <div class="card-body">
               <h5 class="card-title">New Roofs</h5>
               <p class="card-text">If you are looking for a brand new roof then look no further as we can definitively help with that. For more information about new roofs head to…</p>
-              <a href="#" class="btn btn-outline-info">Find Out More</a>
+              <a href="new-roofs.php" class="btn btn-outline-info">Find Out More</a>
             </div>
           </div>
       </div>
@@ -143,7 +143,7 @@
             <div class="card-body">
               <h5 class="card-title">Roof Repairs</h5>
               <p class="card-text">Roofing repairs take various forms. If you are simply looking for tile replacement, mortar re-pointing or cracks patched up for a cost-effective service…</p>
-              <a href="#" class="btn btn-outline-info">Find Out More</a>
+              <a href="repairs.php" class="btn btn-outline-info">Find Out More</a>
             </div>
           </div>
       </div>
