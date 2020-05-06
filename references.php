@@ -20,11 +20,118 @@
 <!-- Roof Banner -->
 <div class="ow-banner shadow-lg"></div>
 
-<!-- Main body -->
+<!--References-->
 <div class="container my-5">
-	<div class="shadow-lg p-3 bg-white border-top border-danger rounded">
-	<section>	
-	<h1 class="display-5 text-center">References of <b>Top</b>RoofersLtd</h1><hr>
+  <div class="shadow-lg p-5 bg-white border-top border-danger rounded">
+    <h1 class="display-5 text-center"><b>Top</b>RoofersLtd References</h1>
+  </div>
+</div>
+
+
+<!-- Main body -->
+
+<div class="container my-5">
+  <div class="shadow-lg bg-white border-top border-danger rounded">
+    <div class="s-link">
+      <a class="d-block px-5 py-3 text-center border border-dark shadow-lg rounded" href="#">
+          <h1 class="display-5 text-center">Reviews of <b>Top</b>RoofersLtd on MyBuilder</h1>
+      </a>
+    </div>
+        <section class="container pb-1">
+            <!-- 1st review -->
+            <div class="card my-3">
+              <div class="card-header">
+                <a class="text-decoration-none" href="https://www.mybuilder.com/job/view/6033987" target="_blank">Tile roof/dormer repairs</a> 
+                <span class="text-secondary font-italic">Roofing (Pitched)</span>
+              </div>
+              <div class="card-body">
+                  <p>
+                    <b>b89797</b>
+                    <em class="text-secondary font-italic">- 3<sup>rd</sup> Mar, 2020 </em>
+                    <b class="text-secondary">Waiting for feedback</b>
+                    <a class="text-decoration-none" href="https://www.mybuilder.com/job/view/6033987" target="_blank">...See Original Comment</a>
+                </p>
+              </div>
+            </div>
+            <!-- 2nd review -->
+            <div class="card my-3">
+              <div class="card-header">
+                <a class="text-decoration-none" href="https://www.mybuilder.com/job/view/6040766" target="_blank">Side passage roof repair</a> 
+                <span class="text-secondary font-italic">Roofing (Pitched)</span>
+              </div>
+              <div class="card-body">
+                  <p>Top Roofers quote was the cheaper of two I sought. The specification for the job was identical from both. The job was carried out with the utmost efficiency in a short time totally in line with the quotation and has since been tested by Storm Dennis and proved able to cope with the amount of rain excellently!</p>
+                  <p>I would certainly recommend Marius and his team to anyone!</p>
+                  <p>
+                    <b>nick76933</b>
+                    <em class="text-secondary font-italic">- 26<sup>th</sup> Feb, 2020 </em>
+                    <img class="icon" src="images/thumbs-up.png">
+                    <i class="text-success"> Positive feedback</i>
+                    <a class="text-decoration-none" href="https://www.mybuilder.com/job/view/6040766" target="_blank">...See Original Comment</a>
+                </p>
+              </div>
+            </div>
+            <!-- 3rd review -->
+            <div class="card my-3">
+              <div class="card-header">
+                <a class="text-decoration-none" href="https://www.mybuilder.com/job/view/6127594" target="_blank">Repair leaking roof </a> 
+                <span class="text-secondary font-italic">Roofing (Pitched)</span>
+              </div>
+              <div class="card-body">
+                  <p>A great experience. Marius quickly identified and repaired our leaking roof sticking to the agreed fixed price. Highly recommend.</p>
+                  <p>
+                    <b>rob14882</b>
+                    <em class="text-secondary font-italic">- 25<sup>th</sup> Feb, 2020 </em>
+                    <img class="icon" src="images/thumbs-up.png">
+                    <i class="text-success"> Positive feedback</i>
+                    <a class="text-decoration-none" href="https://www.mybuilder.com/job/view/6127594" target="_blank">...See Original Comment</a>
+                </p>
+              </div>
+            </div>
+            <!-- 4th review -->
+            <div class="card my-3">
+              <div class="card-header">
+                <a class="text-decoration-none" href="https://www.mybuilder.com/job/view/5995858" target="_blank">PVC panelling on flat roof </a> 
+                <span class="text-secondary font-italic">Roofing (Flat)</span>
+              </div>
+              <div class="card-body">
+                  <p>The work was carried out by Marius Buda. His communications were excellent. He turned up promptly with his team at exactly the time he said he would. He completed the work quickly and efficiently. I am happy to recommend him for future work.</p>
+                  <p>
+                    <b>laurence_noone</b>
+                    <em class="text-secondary font-italic">- 7<sup>th</sup> Feb, 2020 </em>
+                    <img class="icon" src="images/thumbs-up.png">
+                    <i class="text-success"> Positive feedback</i>
+                    <a class="text-decoration-none" href="https://www.mybuilder.com/job/view/5995858" target="_blank">...See Original Comment</a>
+                </p>
+              </div>
+            </div>
+            <!-- 5th review -->
+            <div class="card my-3">
+              <div class="card-header">
+                <a class="text-decoration-none" href="https://www.mybuilder.com/job/view/5941827" target="_blank">New tiles on roof </a> 
+                <span class="text-secondary font-italic">Roofing (Pitched)</span>
+              </div>
+              <div class="card-body">
+                  <p>Nothing was too much for Marius, very professional</p>
+                  <p>
+                    <b>paul28962</b>
+                    <em class="text-secondary font-italic">- 30<sup>th</sup> Jan, 2020 </em>
+                    <img class="icon" src="images/thumbs-up.png">
+                    <i class="text-success"> Positive feedback</i>
+                    <a class="text-decoration-none" href="https://www.mybuilder.com/job/view/5941827" target="_blank">...See Original Comment</a>
+                </p>
+              </div>
+            </div>
+        </section>
+    </div>
+</div>
+<div class="container my-5">
+  <div class="shadow-lg bg-white border-top border-danger rounded">
+    <div class="s-link">
+      <a class="d-block px-5 py-3 text-center border border-dark shadow-lg rounded" href="#">
+          <h1 class="display-5 text-center">References of <b>Top</b>RoofersLtd</h1>
+      </a>
+    </div>
 	<p>We've built up a long list of images from our projects over the years. Take a look at a selection of our most recent work:</p>
 	</section>
 	<section class="container">

@@ -45,6 +45,13 @@ li spam{
  	height: 32px;
  	width: 32px;
 }
+.thumbs-up{
+    background-image: url(../images/thumbs-up.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 32px;
+    width: 32px;
+}
 /*banners*/
 .logo-banner{
 	background-image: url(../images/logo-min.png);

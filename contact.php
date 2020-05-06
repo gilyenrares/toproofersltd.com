@@ -30,11 +30,18 @@
               </div>';
             } ?>
 
+<!--Contact Us-->
+<div class="container my-5">
+  <div class="shadow-lg p-5 bg-white border-top border-danger rounded">
+    <h1 class="display-5 text-center">Contact <b>Top</b>RoofersLtd</h1>
+  </div>
+</div>
+
 <!-- Title Banner -->
 <div class="container my-5">
   <div class="shadow-lg bg-white border-top border-danger rounded">
     <div class="s-link">
-      <a class="d-block px-5 py-3 text-center border border-dark shadow-lg rounded" href="about.php">
+      <a class="d-block px-5 py-3 text-center border border-dark shadow-lg rounded" href="contact.php">
         <h2>Contact Details</h2>
       </a>
     </div>
@@ -49,12 +56,15 @@
 
 <!-- Main body -->
 <div class="container my-5">
-	<div class="shadow-lg p-3 bg-white rounded">
-	<section id="contactForm">	
-	<h1 class="display-5 text-center">Contact <b>Top</b>RoofersLtd</h1><hr>
+  <div class="shadow-lg bg-white border-top border-danger rounded">
+    <div class="s-link">
+      <a class="d-block px-5 py-3 text-center border border-dark shadow-lg rounded" href="contact.php">
+        <h2>Contact Form</h2>
+      </a>
+    </div>
+  <section class="p-3">
   <p>Please do not hesitate to get in touch with us for a no-obligation quote, or with any inquires you may have. You can contact us via <a href="mailto:info@toproofersltd.com">email</a>, or <a href="tel:+4475 960 92240">phone</a>, or by using our <a href="#contactForm">contact form</a> bellow.</p>
-	</section>
-
+	
 <!-- contact form -->
 	<form action="includes/contact.inc.php" method="post">
   		<div class="form-row">
@@ -114,6 +124,7 @@
       </div> 
 	</form><hr>
   <p><i>* If you encounter any issue with our website or any other related problem, please notify </i><img src="images/rbg-logo.png" width="38" height="19"> RBG-DEVELOPMENT<i> our partner web development team, by using the button above (NOTE: YOU WILL BE REDIRECTED TO RBG-DEVELOPMET WEBSITE). </i></p>
+  </section>
 	</div>
 </div>
 <!-- Footer -->
