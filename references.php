@@ -34,10 +34,112 @@
   <div class="shadow-lg bg-white border-top border-danger rounded">
     <div class="s-link">
       <a class="d-block px-5 py-3 text-center border border-dark shadow-lg rounded" href="https://www.mybuilder.com/profile/view/top_roofers_ltd/feedback" target="_blank">
-          <h1 class="display-5 text-center">Reviews of <b>Top</b>RoofersLtd on MyBuilder</h1>
+          <h2 class="display-5 text-center">Review <b>Top</b>RoofersLtd Services</h2>
+      </a>
+    </div>
+    <section class="container p-3">
+       <!-- review form -->
+      <form action="includes/review.inc.php" method="post">
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="firstName">Your Name:</label>
+              <input type="text" class="form-control" name="rfn" id="firstName" placeholder="Example: John Lewis or John L." value="<?php if (isset($_GET['rfn'])) {echo $_GET['rfn'];} ?>" required="required">
+          </div>
+          <div class="form-group col-md-6">
+              <label for="lastName">Job Requested:</label>
+              <input type="text" class="form-control" name="rst" id="lastName" placeholder="Shortly describe the service you requested" value="<?php if (isset($_GET['rst'])) {echo $_GET['rst'];} ?>" required="required">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+              <label for="inputRateing">Rate our service from 1-5 Stars:</label>
+              <select id="inputRateing" name="rating" class="form-control" required="required">
+              <option>5</option>
+              <option>4.5</option>
+              <option>4</option>
+              <option>3.5</option>
+              <option>3</option>
+              <option>2.5</option>
+              <option>2</option>
+              <option>1.5</option>
+              <option>1</option>
+              </select>
+          </div>
+          <div class="form-group col-md-6">
+              <label for="code">Authorisation code:</label>
+              <input type="text" class="form-control" name="otc" id="code" placeholder="6 Digit Code" required="required">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="description">Your Review</label>
+          <textarea  class="form-control" name="rdescription" id="description" rows="4" placeholder="How did we do.." value="<?php if (isset($_GET['rdescription'])) {echo $_GET['rdescription'];} ?>" required="required"></textarea>
+        </div>
+        <p><i>*Your review will be posted on the website shortly</i></p>
+        <div class="btn-group btn-group-lg d-flex mt-2" role="group" aria-label="Basic example">
+          <button type="submit" class="btn btn-success border-secondary mr-2 rounded text-white" name="review-submit">Submit Review</button>
+          <a type="button" class="btn btn-warning border-secondary rounded text-white" href="https://rbg-dev.com/contact.php" target="_blank">Report Issue *</a>
+        </div> 
+      </form>
+    </section>
+  </div>
+</div>  
+<div class="container my-5">
+  <div class="shadow-lg bg-white border-top border-danger rounded">    
+    <div class="s-link">
+      <a class="d-block px-5 py-3 text-center border border-dark shadow-lg rounded" href="https://www.mybuilder.com/profile/view/top_roofers_ltd/feedback" target="_blank">
+          <h2 class="display-5 text-center">Reviews of <b>Top</b>RoofersLtd</h2>
+      </a>
+    </div>
+    <section class="container p-3">
+      <?php include'includes/review-open.inc.php' ?>
+    </section>
+  </div>
+</div>
+<div class="container my-5">
+  <div class="shadow-lg bg-white border-top border-danger rounded">
+    <div class="s-link">
+      <a class="d-block px-5 py-3 text-center border border-dark shadow-lg rounded" href="https://www.mybuilder.com/profile/view/top_roofers_ltd/feedback" target="_blank">
+          <h2 class="display-5 text-center">Reviews of <b>Top</b>RoofersLtd on MyBuilder</h2>
       </a>
     </div>
         <section class="container pb-1">
+            <!-- review -->
+            <div class="card my-3">
+              <div class="card-header">
+                <a class="text-decoration-none" href="https://www.mybuilder.com/job/view/6413516" target="_blank">Replace flat roof on out house </a> 
+                <span class="text-secondary font-italic">Roofing (Flat)</span>
+              </div>
+              <div class="card-body">
+                <p>Did a flat roof for me with minimum fuss and mess. Courteous and polite. Highly recommend</p>
+                <p>
+                    <b>paul20564</b>
+                    <em class="text-secondary font-italic">- 29<sup>th</sup> May, 2020 </em>
+                    <img class="icon" src="images/thumbs-up.png">
+                    <i class="text-success"> Positive feedback</i>
+                    <a class="text-decoration-none" href="https://www.mybuilder.com/job/view/6413516" target="_blank">...See Original Comment</a>
+                </p>
+              </div>
+            </div>
+            <!-- review -->
+            <div class="card my-3">
+              <div class="card-header">
+                <a class="text-decoration-none" href="https://www.mybuilder.com/job/view/6340957" target="_blank">New ground floor flat roof for 1960s terrace house </a> 
+                <span class="text-secondary font-italic">Roofing (Flat)</span>
+              </div>
+              <div class="card-body">
+                <p>Marius and his team did an excellent job replacing a flat roof with a new GRP. 
+His quote was the most detailed and he spent most time explaining the work to me and asking questions. </p>
+                <p>He communicates well and kept me up to date with arrival and timings. The team worked efficiently and he didn't rush, taking the time to ensure the roof was levelled properly for drainage to avoid water collecting, when it would have been quicker to just lay the liquid GRP straight onto the roof. The roof was complete in 2 days and looks great! 
+Highly recommended!</p>
+                <p>
+                    <b>tdgreenhalgh</b>
+                    <em class="text-secondary font-italic">- 16<sup>th</sup> May, 2020 </em>
+                    <img class="icon" src="images/thumbs-up.png">
+                    <i class="text-success"> Positive feedback</i>
+                    <a class="text-decoration-none" href="https://www.mybuilder.com/job/view/6340957" target="_blank">...See Original Comment</a>
+                </p>
+              </div>
+            </div>
             <!-- 1st review -->
             <div class="card my-3">
               <div class="card-header">

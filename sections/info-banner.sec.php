@@ -4,11 +4,11 @@
             <div class="col-sm-4">
                 <div class="row my-4 justify-content-between">
                     <div class="col">
-                        <a href="#"><img src="images/f-icon.png" style="max-height: 100%; max-width: 100px;"></a><br>
+                        <a href="https://www.facebook.com/TopRoofersltd-699861770475025" target="_blank"><img src="images/f-icon.png" style="max-height: 100%; max-width: 100px;"></a><br>
                         <!-- <a href="#" target="_blank" class="text-decoration-none">toproofersltd</a> -->
                     </div>
                     <div class="col">
-                        <a href="#"><img src="images/i-icon.png" style="max-height: 100%; max-width: 100px;"></a><br>
+                        <a href="https://www.instagram.com/toproofersltd" target="_blank"><img src="images/i-icon.png" style="max-height: 100%; max-width: 100px;"></a><br>
                         <!-- <a href="#" target="_blank" class="text-decoration-none">toproofersltd</a> -->
                     </div>
                 </div>

@@ -28,7 +28,7 @@
 <div class="container">
   <div id="carousel" class="carousel slide carousel-fade border border-dark shadow-lg mt-5 rounded" data-ride="carousel">
     <div class="s-link">
-      <a class="d-block px-5 py-3 text-center border border-dark shadow-lg rounded" href="our-work.php">
+      <a class="d-block px-5 py-3 text-center border border-dark shadow-lg rounded" href="references.php">
         <h2>References</h2>
       </a>
     </div>

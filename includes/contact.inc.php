@@ -9,7 +9,6 @@ if (isset($_POST['contact-submit'])) {
   $pscd = $_POST['pscd'];
   $description = $_POST['description'];
 
-
 //Method that checks empty fields and returns the user to contact with the valid info autofilled
   if (empty($firstName) || empty($lastName) || empty($email) || empty($phno) || empty($area) || empty($pscd) || empty($description)) {
     header("Location: ../contact.php?error=emptyfields&fn=".$firstName."&ln=".$lastName."&email=".$email."&phno=".$phno."&area=".$area."&pscd=".$pscd."&description=".$description);
