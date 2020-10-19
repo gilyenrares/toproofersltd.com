@@ -8,6 +8,16 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-171616224-2">
+  </script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-171616224-2');
+  </script>
 </head>
 <body>
 
@@ -64,6 +74,11 @@
     </div>
   <section class="p-3">
   <p>Please do not hesitate to get in touch with us for a no-obligation quote, or with any inquires you may have. You can contact us via <a href="mailto:info@toproofersltd.com">email</a>, or <a href="tel:+4475 960 92240">phone</a>, or by using our <a href="#contactForm">contact form</a> bellow.</p>
+
+<div class="btn-group btn-group-lg d-flex mt-2" role="group" aria-label="Contact Buttons">
+	<a type="button" class="btn btn-success border-secondary rounded text-white mr-2" href="tel:+4475 960 92240">Call us</a>
+	<a type="button" class="btn btn-primary border-secondary rounded text-white" href="mailto:info@toproofersltd.com" >Email us</a>
+</div> <hr>
 	
 <!-- contact form -->
 	<form action="includes/contact.inc.php" method="post">

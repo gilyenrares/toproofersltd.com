@@ -8,7 +8,17 @@
   <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"/>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="styles/style.css">
+  <link rel="stylesheet" type="text/css" href="styles/style.css">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-171616224-2">
+  </script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-171616224-2');
+  </script>
 </head>
 <body>
 
@@ -21,6 +31,10 @@
 <div class="container my-5">
   <div class="shadow-lg p-5 bg-white border-top border-danger rounded">
     <h1 class="display-5 text-center">Welcome to <b>Top</b>RoofersLtd</h1>
+    <div class="row mt-5" role="group" aria-label="Contact Buttons">
+      <a type="button" class="btn btn-success btn-lg btn-block" href="tel:+4475 960 92240">Call 075 960 92240</a>
+      <a type="button" class="btn btn-primary btn-lg btn-block" href="mailto:info@toproofersltd.com" >Email info@toproofersltd.com</a>
+    </div>
   </div>
 </div>
 
